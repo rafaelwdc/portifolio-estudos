@@ -21,6 +21,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow:  0 .5em 1em var(--cor_004)
   }
 
   .cabecalho__logo {
@@ -53,12 +54,12 @@
   
   .barra {
     background-color: #0998d3;
-    height: 100%;
+    height: fit-content;
     width: 250px;
     position: fixed;
     transition: all .2s linear;
     left: -250px;
-  
+    
   }
   
   nav {
@@ -82,7 +83,7 @@
     color: #ffffff;
     border-bottom: 1px solid #0998d3;
     opacity: 0;
-  
+    box-shadow: 1em 1em 1em var(--cor_004)
   
   
   
