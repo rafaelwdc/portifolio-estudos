@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300;400;700&family=Josefin+Sans:wght@100;400;700&display=swap');
+
+@import url(styles/cabecalho.css);
+@import url(styles/conteudo.css);
+@import url(styles/rodape.css);
+
+:root {
+
+    /* -#- Cores -#- */
+
+    --cor_background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
+    --cor_001: #ffffff;
+    --cor_002: #00f2fe;
+    --cor_003: #0aa9eb;
+    --cor_004: #4e598c;
+    --cor_005: #090302;
+
+    /* -#- Fontes -#- */
+
+    --fonte_001: 'Bebas Neue', cursive;
+    --fonte_002: 'Dosis', sans-serif;
+    --fonte_003: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(145deg, var(--cor_003), var(--cor_002));
+    height: 100vh;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,24 @@
+.rodape {
+    top: 85vh;
+    height: 25vh;
+    margin: 16em 1em 1em 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--fonte_002);
+    font-weight: bold;
+    border-radius: 1em;
+    background: linear-gradient(145deg, var(--cor_003), var(--cor_004));
+    box-shadow:  1em 1em 1em var(--cor_004), -1em -1em 1em var(--cor_002);
+}
+
+.rodape__menu {
+    display: none;
+    font-family: var(--fonte_002);
+    font-weight: bold;
+    padding: .8em;
+}
+
+.rodape__logo {
+    width: 5em;
+}
