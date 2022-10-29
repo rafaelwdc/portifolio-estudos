@@ -25,6 +25,7 @@
 
 body {
     background: linear-gradient(145deg, var(--cor_003), var(--cor_002));
+    color: var(--cor_001);
     height: 100vh;
     font-size: 16px;
     font-weight: 400;

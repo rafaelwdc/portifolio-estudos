@@ -4,87 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio - Estudos</title>
+    <title>Portifólio - Home</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/styles/menu_burger.css">
 </head>
 <body>
-
+    <!-- Cabeçalho -->
     <header class="cabecalho">
         <input type="checkbox" id="check">
         <label id="icone" for="check"></label>
+        <!-- Barra lateral -->
         <div class="barra">
-          <nav>
-            <a href="index.html">
-              <div class="Link">Home</div>
-            </a>
-            <a href="sobre.html">
-              <div class="Link">Sobre</div>
-            </a>
-            <a href="portifolio.html">
-              <div class="Link">Portifólio</div>
-            </a>
-            <a href="meus_certificados.html">
-              <div class="Link">Meus Certificados</div>
-            </a>
-            <a href="contato.html">
-              <div class="Link">Contato</div>
-            </a>
-          </nav>
+            <nav>
+                <a href="index.html">
+                    <div class="Link">
+                        Home
+                    </div>
+                </a>
+                <a href="sobre.html">
+                    <div class="Link">
+                        Sobre
+                    </div>
+                </a>
+                <a href="projetos.html">
+                    <div class="Link">
+                        Projetos
+                    </div>
+                </a>
+                <a href="meus_certificados.html">
+                    <div class="Link">
+                        Meus Certificados
+                    </div>
+                </a>
+                <a href="contato.html">
+                    <div class="Link">
+                        Contato
+                    </div>
+                </a>
+            </nav>
         </div>
-        <!-- barra fixa azul horizontal -->
-
+        <!-- Menu -->
         <nav class="menu">
-            <h1 class="titulo">Meu Protifólio</h1>
+            <h1 class="titulo">Meu Portifólio</h1>
             <a href="index.html">
-                <img src="assets/img/logo.png" class="cabecalho__logo">
-        
+                <div class="logo">
+                    <h1 class="logo__esquerda">&#60;</h1>
+                    <h1 class="logo__direita">&#62;</h1>
+                </div>       
             </a>
-            
         </nav>
         <label for="menu-hamburguer">
-            <div class="mburg">
+        <div class="mburg">
             <span class="hamburguer"></span>
-            </div>
-
-        
-      </header>
-
-
-
-
+        </div>
+    </header>
     <main class="conteudo">
         <div class="conteudo__esquerdo">
             <h2 class="conteudo__titulo">
                 Olá, mundo! Eu sou um Desenvolvedor.
             </h2>
+            <br>
             <p class="conteudo__paragrafo">
                 Minha introdução na área do desenvolvimento começou em abril de 2022, e desde então tenho feito varios projetos em aula que gostaria de compartilhar um pouco desses projetos com vocês!
             </p>
         </div>
         <br>
-        <img src="assets/img/foto_rafael.JPG" alt="Imagem do Rafael" class="conteudo__imagem">
+        <div class="conteudo__central">
+            <div class="conteudo__imagem-aspas">
+                <p class="conteudo__imagem-paragrafo">
+                    Estou aqui para <br> fazer a diferença e <br> sempre busca de melhores soluções.
+                </p>
+            </div>
+            <img src="assets/img/foto_rafael.JPG" alt="Imagem do Rafael" class="conteudo__imagem">
+        </div>
         <br>
         <div class="conteudo__direito">
             <p class="conteudo__paragrafo">
-                Fique a vontade para conhecer um pouco sobre mim, explorar pelos projetos que fiz em aula com a Alura, conhecer meu nivel de aprendizado e certificados, além de como entrar em contato comigo  
+                Fique a vontade para conhecer um pouco <a href="sobre.html" class="conteudo__paragrafo-link">sobre mim</a>, explorar pelos <a href="projetos.html" class="conteudo__paragrafo-link">projetos</a> que fiz em aula com a Alura, conhecer meu nivel de <a href="meus_certificados.html" class="conteudo__paragrafo-link">aprendizado e certificados</a>, além de como entrar em <a href="contato.html" class="conteudo__paragrafo-link">contato comigo</a>  
             </p>
         </div>
-
     </main>
-
-
-     <footer class="rodape">
-
-        <img src="assets/img/logo.png" alt="logo medio" class="rodape__logo">
-
+    <footer class="rodape">
+        <a href="index.html">
+            <div class="logo">
+                <h1 class="logo__esquerda">
+                    &#60;
+                </h1>
+                <h1 class="logo__direita">
+                    &#62;
+                </h1>
+            </div>       
+        </a>
         <h3 class="rodape__titulo">
             Meu Portifólio
         </h3>
-
         <nav class="rodape__menu">
-        
             <ul class="rodape__lista">
                 <li class="rodape__lista__item">
                     <a href="#">Sobre</a>
@@ -99,8 +114,7 @@
                     <a href="#">Contato</a>
                 </li>
             </ul>
-        
         </nav>
-     </footer>
+    </footer>
 </body>
 </html>
