@@ -8,12 +8,21 @@
     border: 2px solid var(--preto);
     background: var(--branco);
     border-radius: 1rem;
+   
 }
 
 .card:hover {
-    border-color: var(--hover);
+    border-color: var(--hover); 
+    transform: scale(1.1);
+    transition: .5s;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
 .card:active {
     border-color: var(--ativo);
+}
+
+.preco {
+    font-weight: bolder;
+    font-size: 1.3rem;
 }

@@ -11,18 +11,21 @@ export default function Produtos() {
     <main>
       <section className={styles.container}>
           <Card 
+            className={styles.card}
             titulo="Cabelo" 
             imagem={cabelo} 
             descricao="Na tesoura ou máquina, como o cliente preferir"
             preco="R$ 25,00"
           />
           <Card 
+            className={styles.card}
             titulo="Barba" 
             imagem={barba} 
             descricao="Corte e desenho profissional de barba"
             preco="R$ 18,00"
           />
           <Card 
+            className={styles.card}
             titulo="Cabelo + Barba" 
             imagem={cabeloBarba} 
             descricao="Pacote completo de cabelo e barba"

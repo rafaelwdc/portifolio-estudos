@@ -1,0 +1,18 @@
+.listaSuspensa {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
+    margin: 2.5rem 0;
+    height: 5rem;
+}
+
+.listaSuspensa label {
+    margin-bottom: 1em;
+}
+
+.listaSuspensa select {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+
+}

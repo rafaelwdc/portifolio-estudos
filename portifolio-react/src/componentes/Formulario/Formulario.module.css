@@ -1,0 +1,19 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.formulario form {
+    max-width: 80%;
+    background-color: var(--cinza-claro);
+    border-radius: 20px;
+    padding: 36px 20px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+}

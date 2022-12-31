@@ -1,0 +1,26 @@
+.container {
+    border: 2px solid var(--preto);
+    border-radius: 20px;
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabela {
+    margin: 20px 0 20px;
+    display: block;
+    align-items: center;
+}
+.tabela__cabecalho {
+    background: var(--cinza-claro);
+    color: var(--branco);
+    font-weight: bold;
+}
+
+.tabela__celula  {
+    border: 3px solid var(--preto);
+    padding: 8px 15px;
+    margin: 0 auto;
+    width: 15em;
+}

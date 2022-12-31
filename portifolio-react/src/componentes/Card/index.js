@@ -7,7 +7,7 @@ export default function Card({ titulo, imagem, descricao, preco }) {
         <h2>{titulo}</h2>
         <img src={imagem} alt={titulo} />
         <p>{descricao}</p>
-        <p>{preco}</p>
+        <p className={styles.preco}>{preco}</p>
     </div>
   )
 }
