@@ -1,0 +1,19 @@
+.card {
+    text-align: center;
+    width: 18rem;
+    height: 30rem;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--preto);
+    background: var(--branco);
+    border-radius: 1rem;
+}
+
+.card:hover {
+    border-color: var(--hover);
+}
+
+.card:active {
+    border-color: var(--ativo);
+}

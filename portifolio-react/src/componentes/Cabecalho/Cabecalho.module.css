@@ -1,0 +1,12 @@
+.caixa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--cinza-escuro);
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+}

@@ -1,0 +1,15 @@
+.mapa {
+    padding: 3em 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.mapMarker {
+    margin-top: -30px;
+}

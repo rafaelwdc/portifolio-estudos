@@ -1,0 +1,11 @@
+.principal {
+    max-width: 940px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.utensilios {
+	width: 165px;
+	float: left;
+	margin: 0 20px 20px 0;
+}

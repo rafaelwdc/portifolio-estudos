@@ -1,0 +1,6 @@
+.container {
+    background: linear-gradient(to bottom, var(--branco), var(--cinza-claro), var(--cinza-escuro));
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--fonte);
+}
