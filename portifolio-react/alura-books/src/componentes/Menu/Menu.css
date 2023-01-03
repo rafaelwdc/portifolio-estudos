@@ -1,0 +1,29 @@
+.icon .iconActive .hamburguer {
+    background: transparent;
+    box-shadow: 0 2px 5px transparent;
+}
+
+.icon.iconActive .hamburguer::after {
+    top: 0;
+    background: var(--branco);
+    transform: rotate(225deg);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+.icon.iconActive .hamburguer::before {
+    top: 0;
+    background: var(--branco);
+    transform: rotate(135deg);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu .menuOpen {
+    width: 150px;
+    height: 100vh;
+    background: var(--preto);
+    box-shadow: 10px 0 69px 0px rgba(0, 0, 0, 0.59);
+}
+
+.menu .menuClose {
+    display: none;
+    width: 0px;
+}

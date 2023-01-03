@@ -9,4 +9,5 @@
 .link:hover {
     color: var(--hover);
     text-decoration: underline;
+    transition: .5s;
 }
