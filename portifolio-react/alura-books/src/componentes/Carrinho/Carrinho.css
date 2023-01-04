@@ -1,0 +1,8 @@
+.carrinho {
+    width: 44px;
+    height: 42px;
+    background-image: url(./Carrinho.svg);
+    padding: .9rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}

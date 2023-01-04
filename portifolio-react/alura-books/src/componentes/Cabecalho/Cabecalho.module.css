@@ -1,42 +1,10 @@
 .cabecalho {
-    background-color: var(--branco);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
 }
 
-.icon {
-    position: absolute;
-    z-index: 4;
-    left: 1%;
-    width: fit-content;
-    height: 44px;
-    cursor: pointer;
-}
-
-.list {
+.ladoDireito, .ladoEsquerdo {
     display: flex;
-    flex-direction: column;
-    left: 1%;
-    padding: 45px 0 0;
-    flex-wrap: nowrap;
-    color: var(--branco);
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.list .listItens {
-    padding: 0;
-    list-style: none;
-
-}
-
-.list .listItens li {
-    margin: 2px 8px;
-    cursor: pointer;
-}
-
-.list .listItens li:hover {
-    font-weight: 800;
+    flex-direction: row;
 }

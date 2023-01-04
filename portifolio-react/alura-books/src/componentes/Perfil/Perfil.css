@@ -1,0 +1,26 @@
+.perfil {
+    width: 44px;
+    height: 42px;
+    background-image: url(./Usuário.svg);
+    padding: .6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.perfilIcon {
+    padding: 0;
+    margin: 0;
+}
+
+.icone {
+    padding: 13px 10px 13px 0;
+    cursor: pointer;
+}
+
+.icone.iconeActive {
+    background-color: var(--branco);
+}
+
+.login.loginFechado {
+    display: none;
+}

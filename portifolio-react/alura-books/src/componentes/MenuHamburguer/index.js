@@ -1,21 +1,33 @@
 import React, { useState } from 'react'
-import './Menu.css'
-import Hamburguer from '../Hamburguer'
+import './MenuHamburguer.css'
 
-export default function Menu() {   
-    const [active, setMode] = useState(false)
+export default function MenuHamburguer() {
+    const [active, setMode] = useState(false);
     const ToggleMode = () => {
         setMode(!active)
     }
     return (
-        <div>
-            <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
-                <Hamburguer />
+        <div className='App'>
+            <div 
+                className={
+                    active 
+                    ? 'icon iconActive' 
+                    : 'icon'
+                } 
+                onClick={ToggleMode}
+            >
+                <div className='hamburguer hamburguerIcon'></div>
             </div>
-            <div className={active ? "menu menuOpen" : "menu menuClose"}>
-                <div className="list">
-                    <ul className="listItens">
-                        <li className="lista-menu__titulo">
+            <div 
+                className={
+                    active 
+                    ? 'menu menuOpen' 
+                    : 'menu menuClose'
+                }
+            >
+                <div className='list'>
+                    <ul className='listItems'>
+                        <li className='tituloMenuHamburguer'>
                             Categorias
                         </li>
                         <li>
@@ -36,6 +48,7 @@ export default function Menu() {
                     </ul>
                 </div>
             </div>
+
         </div>
     )
 }
