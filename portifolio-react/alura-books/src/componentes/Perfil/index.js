@@ -11,9 +11,10 @@ export default function Perfil() {
         <div className='App'>
             <div className={active ? 'icone iconeActive' : 'icone'} onClick={ToggleMode}>
                 <div className='perfil perfilIcon'></div>
+                <h4 className='tituloIcone'>Meu Perfil</h4>
             </div>
             <div className={active ? 'login loginAberto' : 'login loginFechado'}>
-                <Login className='display' />
+                <Login />
             </div>
         </div>
     )

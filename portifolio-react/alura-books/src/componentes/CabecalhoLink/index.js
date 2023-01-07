@@ -1,11 +1,21 @@
-import styles from './CabecalhoLink.module.css'
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import Categorias from '../Categorias'
+import './CabecalhoLink.css'
 
-export default function CabecalhoLink({ url, children }) {
+export default function CabecalhoLink() {
+  const [active, setMode] = useState(false)
+  const ToggleMode = () => {
+    setMode(!active)
+  }
   return (
-    <Link to={url} className={styles.link}>
-        {children}
-    </Link>    
+    <div className='LinkCategorias'>
+      <div className={active ? 'link linkAtivo' : 'link'} onClick={ToggleMode}>
+        <h2>Categorias</h2>
+      </div>
+      <div className={active ? 'categorias categoriasAberto' : 'categorias categoriasFechado'}>
+        <Categorias />
+      </div>
+
+    </div>
   )
 }

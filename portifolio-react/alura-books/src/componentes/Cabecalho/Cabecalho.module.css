@@ -2,9 +2,34 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: var(--branco);
+}
+
+.centro {
+    display: none;
 }
 
 .ladoDireito, .ladoEsquerdo {
     display: flex;
     flex-direction: row;
+}
+
+@media (min-width: 760px) {
+    .centro {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1020px) {
+    .cabecalho {
+        justify-content: flex-start;
+    }
+
+    .ladoDireito {
+        position: absolute;
+        right: 0;
+        display: flex;
+        gap: 1rem;
+    }
 }

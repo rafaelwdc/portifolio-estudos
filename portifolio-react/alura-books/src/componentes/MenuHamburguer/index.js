@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Categorias from '../Categorias';
 import './MenuHamburguer.css'
 
 export default function MenuHamburguer() {
@@ -25,30 +26,8 @@ export default function MenuHamburguer() {
                     : 'menu menuClose'
                 }
             >
-                <div className='list'>
-                    <ul className='listItems'>
-                        <li className='tituloMenuHamburguer'>
-                            Categorias
-                        </li>
-                        <li>
-                            Programação
-                        </li>
-                        <li>
-                            Front-end
-                        </li>
-                        <li>
-                            Infraestrutura
-                        </li>
-                        <li>
-                            Business
-                        </li>
-                        <li>
-                            Design & UX
-                        </li>
-                    </ul>
-                </div>
+                <Categorias />
             </div>
-
         </div>
     )
 }

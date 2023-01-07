@@ -1,0 +1,24 @@
+.menuNavegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.menuNavegacao li {
+    list-style: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: .5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.menuNavegacao li:hover {
+    text-decoration: underline;
+}
+
+.categorias {
+    position: absolute;
+    box-sizing: border-box;
+}

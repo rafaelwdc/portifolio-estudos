@@ -13,8 +13,10 @@
 }
 
 .icone {
-    padding: 13px 10px 13px 0;
+    padding: 19px 10px 12px 0;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .icone.iconeActive {
@@ -23,4 +25,14 @@
 
 .login.loginFechado {
     display: none;
+}
+
+.tituloIcone {
+    display: none;
+}
+
+@media (min-width: 1020px) {
+    .tituloIcone {
+        display: flex;
+    }
 }

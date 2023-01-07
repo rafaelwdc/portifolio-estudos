@@ -1,0 +1,35 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: var(--branco);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.list .listItems {
+    padding: 0;
+    list-style: none;
+    
+}
+
+.tituloMenuHamburguer {
+    color: var(--laranja);
+    font-weight: bold;
+}
+
+.list .listItems li {
+    margin: 2px 8px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.list .listItems li:hover {
+    font-weight: 800;
+}
+
+@media (min-width: 760px) {
+    .tituloMenuHamburguer {
+        display: none;
+    }
+}

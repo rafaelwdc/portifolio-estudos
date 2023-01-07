@@ -1,0 +1,12 @@
+.categorias.categoriasAberto {
+    display: flex;
+    position: absolute;
+    background-color: var(--azul);
+    color: var(--branco);
+    margin-top: 1.4rem;
+    border-radius: 8px;
+}
+
+.categorias.categoriasFechado {
+    display: none;
+}
