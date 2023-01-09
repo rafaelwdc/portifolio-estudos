@@ -10,6 +10,7 @@ export default function Login() {
       <form className={styles.formulario}>
         <h2 className={styles.titulo}>Login e Senha</h2>
         <Campo
+          className={styles.campo}
           obrigatorio={true}
           label='E-mail ou ID:'
           placeholder='Digite seu e-mail ou ID'
