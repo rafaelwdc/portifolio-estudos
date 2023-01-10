@@ -4,9 +4,9 @@ import React from 'react'
 import MenuHamburguer from '../MenuHamburguer'
 import Logo from '../Logo'
 import Favoritos from '../Favoritos'
-import Carrinho from '../Carrinho'
 import Perfil from '../Perfil'
 import MenuNavegacao from '../MenuNavegacao'
+import MinhaSacola from '../MinhaSacola'
 
 export default function Cabecalho() {
     return (
@@ -20,7 +20,7 @@ export default function Cabecalho() {
             </div>
             <div className={styles.ladoDireito}>
                 <Favoritos />
-                <Carrinho />
+                <MinhaSacola />
                 <Perfil />
             </div>
         </header>
