@@ -1,0 +1,8 @@
+.gostar {
+    width: 44px;
+    height: 42px;
+    background-image: url(./Favoritos.svg);
+    padding: 1.2rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}

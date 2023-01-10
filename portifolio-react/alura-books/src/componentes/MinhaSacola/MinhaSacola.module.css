@@ -1,0 +1,27 @@
+.minhaSacola {
+    width: 44px;
+    height: 42px;
+    background-image: url(./Compras.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+}
+
+.tituloIcone {
+    display: none;
+}
+
+@media (min-width: 760px) {
+    .minhaSacola {
+        padding-top: 2.3rem;
+    }
+}
+@media (min-width: 1020px) {
+    .tituloIcone {
+        display: block;
+    }
+}
