@@ -1,0 +1,26 @@
+.swiper-pagination {
+    position: initial;
+    margin: .5em;
+}
+
+.tituloCarrossel {
+    color: var(--laranja);
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--branco);
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 1440px) {
+    .cardContainer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tituloCarrossel {
+        font-size: 2.2rem;
+    }
+}
