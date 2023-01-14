@@ -24,17 +24,17 @@ export default function Beneficios() {
             </div>
 
             <div className={styles.video}>
-                <iframe 
-                    width="42%" 
-                    height="420" 
-                    src="https://www.youtube.com/embed/wcVVXUV0YUY" 
-                    frameborder="0" 
+                <iframe
+                    width="42%"
+                    height="420"
+                    src="https://www.youtube.com/embed/wcVVXUV0YUY"
+                    frameBorder="0"
                     allow="accelerometer; 
                         autoplay; 
                         encrypted-media; 
                         gyroscope; 
-                        picture-in-picture" 
-                    allowfullscreen 
+                        picture-in-picture"
+                    allowFullScreen
                     title='Video do Barbeiro'
                 />
             </div>

@@ -1,36 +1,26 @@
 import React from 'react'
 import Card from '../../componentes/Card'
 import styles from './Produtos.module.css'
-
-import cabelo from '../../componentes/Card/cabelo.jpg'
-import barba from '../../componentes/Card/barba.jpg'
-import cabeloBarba from '../../componentes/Card/cabelo+barba.jpg'
+import produtos from 'json/produtos.json'
 
 export default function Produtos() {
   return (
     <main>
-      <section className={styles.container}>
-          <Card 
-            className={styles.card}
-            titulo="Cabelo" 
-            imagem={cabelo} 
-            descricao="Na tesoura ou máquina, como o cliente preferir"
-            preco="R$ 25,00"
-          />
-          <Card 
-            className={styles.card}
-            titulo="Barba" 
-            imagem={barba} 
-            descricao="Corte e desenho profissional de barba"
-            preco="R$ 18,00"
-          />
-          <Card 
-            className={styles.card}
-            titulo="Cabelo + Barba" 
-            imagem={cabeloBarba} 
-            descricao="Pacote completo de cabelo e barba"
-            preco="R$ 35,00"
-          />
+      <section>
+        <ul className={styles.container}>
+          {produtos.map((produto, index) => {
+            return (
+              <Card
+                key={index}
+                className={styles.card}
+                titulo={produto.titulo}
+                imagem={produto.imagem}
+                descricao={produto.descricao}
+                preco={produto.preco}
+              />
+            )
+          })}
+        </ul>
       </section>
     </main>
   )

@@ -13,7 +13,6 @@ export default function Carrossel({ settings, children }) {
                 modules={[Navigation, Pagination, A11y]}
                 {...settings}
             >
-
                 {children}
             </Swiper>
         </>
