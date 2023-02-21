@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Cabelo",
-        "imagem": "../assets/img/cabelo.png",
+        "imagem": "/assets/img/cabelo.png",
         "descricao": "Na tesoura ou máquina, como o cliente preferir",
         "preco": "R$ 25,00"
     },
