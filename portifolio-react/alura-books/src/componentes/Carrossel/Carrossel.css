@@ -1,3 +1,7 @@
+.carrosselSlide {
+    display: flex;
+}
+
 .swiper-pagination {
     position: initial;
     margin: .5em;
