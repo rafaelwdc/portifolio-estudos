@@ -1,44 +1,23 @@
 import React from 'react'
 import Banner from '../../componentes/Banner'
 import Cabecalho from '../../componentes/Cabecalho'
-import Carrossel from '../../componentes/Carrossel'
 import './Inicio.module.css'
 import recomendacao from './Angular.svg'
 import autoraDoMes from './Perfil-escritora.png'
 import styles from './Inicio.module.css'
 import Card from '../../componentes/Card'
-import { SwiperSlide } from 'swiper/react'
-import livros from './assets/livros.json'
 import 'swiper/css'
+import Carrossel from 'componentes/Carrossel'
 
 export default function Inicio() {
-  const settings = {
-    spaceBetween: 10,
-    slidesPerView: 3,
-    navigation: true,
-    pagination: {
-      clickable: true,
-    }
-  }
+
   return (
     <>
       <Cabecalho />
       <Banner />
       <h2 className={styles.tituloCarrossel}>Novos Lançamentos</h2>
+      <Carrossel />
       <div className={styles.cardContainer}>
-        <Carrossel settings={settings}>
-          <ul className={styles.carrosselSlide}>
-            {livros.map((livro, index) => {
-              return (
-                <SwiperSlide >
-                  <li key={index}>
-                    <img src={livro.path} alt={livro.subtitulo} />
-                  </li>
-                </SwiperSlide>
-              )
-            })}
-          </ul>
-        </Carrossel>
         <Card
           title='Talvez você também se interesse por...'
           titleCard='Angular 11 e Firebase'
@@ -48,20 +27,8 @@ export default function Inicio() {
         />
       </div>
       <h2 className={styles.tituloCarrossel}>Mais Vendidos</h2>
+      <Carrossel />
       <div className={styles.cardContainer}>
-        <Carrossel settings={settings}>
-          <ul className={styles.carrosselSlide}>
-            {livros.map((livro, index) => {
-              return (
-                <SwiperSlide>
-                  <li key={index}>
-                    <img src={livro.path} alt={livro.subtitulo} />
-                  </li>
-                </SwiperSlide>
-              )
-            })}
-          </ul>
-        </Carrossel>
         <Card
           title='Autora do Mês'
           titleCard='Juliana Agarikov'
