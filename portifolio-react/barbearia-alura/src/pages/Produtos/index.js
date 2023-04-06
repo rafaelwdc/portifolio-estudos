@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../../componentes/Card'
 import styles from './Produtos.module.css'
-import produtos from 'json/produtos.json'
+import produtos from '../../assets/json/produtos.json'
 
 export default function Produtos() {
   return (
@@ -9,6 +9,7 @@ export default function Produtos() {
       <section>
         <ul className={styles.container}>
           {produtos.map((produto, index) => {
+            console.log(produto.imagem);
             return (
               <Card
                 key={index}
