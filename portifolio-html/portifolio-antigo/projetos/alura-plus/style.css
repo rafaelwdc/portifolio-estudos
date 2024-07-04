@@ -148,6 +148,9 @@ body {
     text-decoration: none;
     color: var(--branco-principal);
 }
+.lista__item {
+    list-style-type: none;
+}
 
 .lista__link:hover {
     color: var(--botao-azul);
@@ -238,6 +241,10 @@ body {
         grid-template-columns: 50% 50%;
 
     }
+    
+    .container__caixa {
+        margin: auto;
+    }
 
     .container__titulo {
         width: 50vw;
@@ -298,7 +305,7 @@ body {
     }
     
     .dispositivos {
-        height: 30vh;
+        height: 50vh;
     }
 
     .dispositivos__titulo {
@@ -372,5 +379,9 @@ body {
     .container__titulo {
         font-size: 2.5em;
         margin-top: 0;
+    }
+
+    .dispositivos {
+        height: 30vh;
     }
 }

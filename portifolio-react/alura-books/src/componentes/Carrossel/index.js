@@ -1,5 +1,5 @@
 import React from 'react'
-import { Swiper } from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, A11y } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -17,6 +17,7 @@ export default function Carrossel() {
             clickable: true,
         }
     }
+
     return (
         <>
             <Swiper
